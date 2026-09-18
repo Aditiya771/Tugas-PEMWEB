@@ -234,6 +234,36 @@ body {
     transition: 0.3s;
 }
 
+.team-avatar {
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.team-info {
+    margin-top: 35px;
+}
+
+.team-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.team-card p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
 .team-card:hover {
     transform: translateY(-5px);
     border-color: rgba(255, 255, 255, 0.3);

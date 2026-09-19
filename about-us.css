@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-    --bg: #08090d;
-    --text: #f5f5f5;
-    --muted: #a6a6ad;
-    --line: rgba(255, 255, 255, 0.12);
-    --card: rgba(255, 255, 255, 0.04);
-    --accent: #ffffff;
+    --bg: #8b7cff;
+    /* --bg: #0b0a18; */
+
+    --text: #f5f3ff;
+
+    --muted: #aaa6c2;
+
+    --line: rgba(167, 158, 255, 0.18);
+
+    --card: rgba(139, 124, 255, 0.07);
+
+    --accent: #8b7cff;
+
 }
 
 * {
